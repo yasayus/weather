@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+body main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+body main h1 {
+  color: rgba(14, 235, 62, 0.974);
+}
+body main #output {
+  display: flex;
+}
+body main #output li {
+  width: 10rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  list-style-type: none;
+  border: 30px solid rgba(245, 245, 74, 0.7882352941);
+  font-family: "Open Sans", sans-serif;
+  margin: 5px;
+  border: 1px solid red;
+}
+body main #output li #weekDay {
+  color: blue;
+}
+body main #output li #maxTemp {
+  margin: 5px;
+}
+body main #output li #img {
+  width: 64px;
+  height: 64px;
+}/*# sourceMappingURL=style.css.map */
